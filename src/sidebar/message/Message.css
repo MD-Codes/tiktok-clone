@@ -1,0 +1,62 @@
+.videoSidebar__container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+    overflow-x: scroll;
+}
+.videoSidebar__topContainer {
+    width: 100%;
+    display: flex;
+    font-size: 0.8em;
+    padding: 5px;
+    justify-content: center;
+}
+.videoSidebar__topContainer > p {
+    flex: 1
+
+}
+.videoSidebar__topContainer > button {
+ align-items: flex-end;
+ margin: auto 20px;
+
+}
+.message {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+}
+.user {
+    margin: 5px;
+    padding: 5px;
+}
+.comment {
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    width:70%;
+    text-align: left;
+}
+.videoSidebar__form {
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    background-color: #e9e9eb;
+    width: 100%;
+  }
+  .videoSidebar__formControl {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 90% !important;
+  }
+  .videoSidebar__iconButton {
+    z-index: 1 !important;
+    
+  }
+  .videoSidebar__input {
+    flex: 1 !important;
+  }
